@@ -1,7 +1,9 @@
 let productDiv = document.getElementById("right-bottom");
 
 
-let url = "https://happy-ant-crown.cyclic.app/products";
+// let url = "https://happy-ant-crown.cyclic.app/products";
+// let url =  "http://localhost:4040/products"
+let url = "https://soundrya-backend.onrender.com/products"
 
 let bag = [];
 let cartItems = JSON.parse(localStorage.getItem("cartProducts")) || [];
